@@ -17,6 +17,6 @@ app.get("/login", (req, res) => {
 
 app.use("/static", express.static(__dirname + "/public"));
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || port, function () {
   console.log("server up");
 });
