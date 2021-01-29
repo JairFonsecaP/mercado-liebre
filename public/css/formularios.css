@@ -1,0 +1,27 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+.formulario div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formulario {
+  font-weight: 600;
+}
+.opciones {
+  font-weight: 500;
+}
+button {
+  padding: 5px;
+  transition: 0.5s;
+}
+.submit:hover {
+  background-color: #0022aa;
+  color: #ebebeb;
+}
